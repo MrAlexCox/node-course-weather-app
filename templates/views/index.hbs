@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="icon" href="/img/icon.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+
+<body>
+
+    <div class="main-content"> 
+        {{>header}}
+        <img class="home-image" src="/img/image.png">
+        <p>Use this to get your weather!! ( : : )</p>
+        <form>
+            <input placeholder="Enter location here">
+            <button>Search</button>
+        </form>
+
+        <p id="message-one"></p>
+        <p id="message-two"></p>
+
+    </div>
+   
+    {{>footer}}
+
+    <script src="js/app.js"></script>   
+</body>
+
+</html>
